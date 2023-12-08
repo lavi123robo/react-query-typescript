@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react-query-typescript/static/js/main.dae91a25.js",
+    "main.js": "/react-query-typescript/static/js/main.8357fa5f.js",
     "static/js/787.bae84baf.chunk.js": "/react-query-typescript/static/js/787.bae84baf.chunk.js",
     "static/media/splash.jpg": "/react-query-typescript/static/media/splash.a494bf75c0655fbb46dc.jpg",
     "index.html": "/react-query-typescript/index.html",
-    "main.dae91a25.js.map": "/react-query-typescript/static/js/main.dae91a25.js.map",
+    "main.8357fa5f.js.map": "/react-query-typescript/static/js/main.8357fa5f.js.map",
     "787.bae84baf.chunk.js.map": "/react-query-typescript/static/js/787.bae84baf.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.dae91a25.js"
+    "static/js/main.8357fa5f.js"
   ]
 }
