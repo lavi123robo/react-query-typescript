@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { screen, waitFor } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import { rest } from "msw";
 
 import { server } from "../../../mocks/server";
@@ -11,7 +11,7 @@ test("Appointment query error", async () => {
   server.resetHandlers(
     rest.get(
       "http://localhost:3030/appointments/:month/:year",
-      (req, res, ctx) => {
+      (_req, res, ctx) => {
         return res(ctx.status(500));
       },
     ),

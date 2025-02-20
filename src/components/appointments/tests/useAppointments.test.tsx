@@ -1,4 +1,5 @@
-import { act, renderHook, waitFor } from "@testing-library/react";
+import { renderHook, waitFor } from "@testing-library/react";
+import { act } from "@testing-library/react-hooks";
 
 import { AppointmentDateMap } from "../../../../shared/types";
 import { createQueryClientWrapper } from "../../../test-utils";
