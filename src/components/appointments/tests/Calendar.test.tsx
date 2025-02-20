@@ -13,6 +13,7 @@ test("Appointment query error", async () => {
       "http://localhost:3030/appointments/:month/:year",
       (_req, res, ctx) => {
         return res(ctx.status(500));
+        const x = 10;
       },
     ),
   );
